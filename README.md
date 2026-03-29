@@ -21,7 +21,7 @@ Best model: LightGBM
 The ROC curve shows that the model can distinguish between classes quite well.
 The AUC score is around 0.81, which indicates good performance.
 
-![ROC Curve](ROC.png)
+![ROC Curve](assets/ROC.png)
 
 ## Model Comparison
 
