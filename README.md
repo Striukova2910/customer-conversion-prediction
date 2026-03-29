@@ -18,8 +18,10 @@ LightGBM was also tuned using:
 ## Results
 Best model: LightGBM
 
-- ROC-AUC ≈ 0.81  
-- F1-score ≈ 0.38
+The ROC curve shows that the model can distinguish between classes quite well.
+The AUC score is around 0.81, which indicates good performance.
+
+![ROC Curve](ROC.png)
 
 ## Model Comparison
 
