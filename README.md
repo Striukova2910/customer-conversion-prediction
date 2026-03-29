@@ -19,7 +19,11 @@ LightGBM was also tuned using:
 Best model: LightGBM
 
 - ROC-AUC ≈ 0.81  
-- F1-score ≈ 0.38  
+- F1-score ≈ 0.38
+
+  #%%
+# results for GitHub
+print(results.to_markdown())
 
 ## Key Insights
 - Economic features (euribor3m, employment rate) are important  
