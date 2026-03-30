@@ -11,7 +11,7 @@ This is a binary classification problem.
 ## Target Distribution
 The dataset is imbalanced, with more negative cases than positive ones.
 
-![target_distribution](assets/countplot.png)
+![target_distribution](assets/target_distribution.png)
 
 ---
 
