@@ -23,11 +23,6 @@ The dataset is imbalanced, with more negative cases than positive ones.
 
 ---
 
-## Results
-Best model: **LightGBM (Hyperopt)**
-
----
-
 ## Model Comparison
 
 | Model | Hyperparameters | Train ROC-AUC | Test ROC-AUC | Train F1 | Test F1 | Comment |
@@ -37,6 +32,13 @@ Best model: **LightGBM (Hyperopt)**
 | Decision Tree (depth=7) | max_depth=7 | 0.801 | 0.797 | 0.445 | 0.410 | Good balance, interpretable |
 | LightGBM (Random Search) | RandomizedSearchCV tuned | 0.850 | 0.814 | 0.436 | 0.385 | Strong performance |
 | LightGBM (Hyperopt) | Hyperopt tuned | 0.846 | 0.816 | 0.434 | 0.389 | Best overall model |
+
+
+---
+
+
+## Results
+Best model: **LightGBM (Hyperopt)**
 
 ---
 
